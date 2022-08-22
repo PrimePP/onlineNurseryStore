@@ -1,0 +1,170 @@
+*{
+    margin:0px 0px;
+    /* box-sizing: border-box; */
+}
+  
+body{
+    background-color: #F4F3F8;
+    /* background-color: #000000; */
+    font-family: 'Abel',sans-serif;
+    overflow: hidden;
+    width: 100vw;
+    padding-top: 40px;
+}  
+
+/* Styling for whole Screen */
+#midWhole{
+    width: 100vw;
+    height: 90vh;
+}
+
+/* REVIEW THIS */
+#navbarMonstera{
+    cursor: grab;
+    height: 10vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    padding-top: 30px;
+    padding-left: 40px;
+   
+    
+}
+
+
+  #navMid{
+    margin-left: 240px;
+    font-size: 20px;
+    margin-top: -38px;
+  }
+
+#navMid >div{
+    display: inline;
+}
+
+#navMid div h4{
+    display: inline;
+    margin-right:65px;
+}
+
+#navMid .nav-menu{
+    border-bottom: 2px solid #000;
+}
+
+#navEnd{
+    margin-left: 1240px;
+    margin-top: -32px;
+
+}
+
+#navEnd > div{
+    display: inline;
+}
+
+#navEnd img{
+    margin-left: 25px;
+    width: 22px;
+}
+
+/* REVIEW THIS */
+#midWhole{
+    /* background-color: crimson;
+    border: 3px solid #544ce6; */
+    height: 90vh;
+    width: 100vw;
+}
+
+/* List Part */
+
+
+#midWholePart11{
+    font-family:'Abel',sans-serif;
+    font-size: 20px;
+}
+
+#listDecoration{
+  list-style:hiragana;
+}
+
+
+#midWholePart11 div ul li h1{
+    font-size: 130px;
+    font-family: 'Allerta',sans-serif;
+    letter-spacing: 2px;
+    /* margin-top: 140px; */
+}
+
+#midWholePart1>#midWholePart11 {
+    position: absolute;
+    top:170px;
+    left: 40px;
+}
+
+
+/* Discover button look */
+#midWholePart12{
+    position: absolute;
+    top: 485px;
+    left: 140px;
+}
+
+#midWholePart121 button{
+    color: white;
+    border:none;
+    background-color: #466D50;
+    padding: 15px 45px;
+    font-family:'Allerta',sans-serif;;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: grab;
+}
+
+#midWholePart121 button:hover{
+    background-color: #000000;
+}
+
+
+/* Below Discover Part */
+#midWholePart13{
+    position:absolute;
+    top:620px;
+    left: 150px;
+    display: flex;
+}
+
+#care{
+    width:50px
+}
+#light{
+    width: 40px;
+}
+
+#feeding{
+    width:70px;
+}
+
+.midWholePart13Parts{
+    margin-bottom: 10px;
+    display: flex;
+    margin-right: 70px;
+}
+
+.midWholePart13Parts img{
+    margin-right: 20px;
+}
+
+.midWholePart13Parts p,h4{
+    margin-top: -10px;
+}
+
+.midWholePart13Parts h4{
+    margin-bottom: 10px;
+}
+
+/* Flower Pot image*/
+#imgMain{
+    position: absolute;
+    top: 120px;
+    left: 1120px;
+    width: 420px;
+    height: 635px;
+}
