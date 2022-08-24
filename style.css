@@ -5,25 +5,19 @@
   
 body{
     background-color: #F4F3F8;
-    /* background-color: #000000; */
     font-family: 'Abel',sans-serif;
     overflow: hidden;
     width: 100vw;
     padding-top: 40px;
 }  
 
-/* Styling for whole Screen */
-#midWhole{
-    width: 100vw;
-    height: 90vh;
-}
 
-/* REVIEW THIS */
+
+/* Navbar */
 #navbarMonstera{
     cursor: grab;
     height: 10vh;
     width: 100vw;
-    /* background-color: aqua; */
     padding-top: 30px;
     padding-left: 40px;
    
@@ -31,7 +25,7 @@ body{
 }
 
 
-  #navMid{
+#navMid{
     margin-left: 240px;
     font-size: 20px;
     margin-top: -38px;
@@ -65,17 +59,9 @@ body{
     width: 22px;
 }
 
-/* REVIEW THIS */
-#midWhole{
-    /* background-color: crimson;
-    border: 3px solid #544ce6; */
-    height: 90vh;
-    width: 100vw;
-}
 
+/* Middle section */
 /* List Part */
-
-
 #midWholePart11{
     font-family:'Abel',sans-serif;
     font-size: 20px;
@@ -167,4 +153,299 @@ body{
     left: 1120px;
     width: 420px;
     height: 635px;
+}
+
+/* Ham Menu */
+.ham-menu{
+   visibility: hidden;
+}
+
+/* ******************************************
+******************************************
+******** Mobile Tablet Responsiveness ***********
+******************************************
+****************************************** */
+
+@media screen and (max-width:768px){
+    /* Navbar */
+#navbarMonstera{
+    cursor: grab;
+    height: 10vh;
+    width: 100vw;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 700px;
+}
+.nav-logo{
+    width: 450px;
+}
+
+  #navMid{
+    margin-top: -48px;
+    margin-left: 270px;
+    font-size: 40px;
+    display:flex;
+    
+  }
+
+
+
+#navMid .nav-menu{
+    border-bottom: 2px solid #000000;
+}
+
+#navEnd{
+    display:flex;
+
+}
+
+#navEnd > div{
+    position: relative;
+    display: inline;
+    top:-20px;
+}
+
+#navEnd img{
+    width: 40px;
+}
+
+
+/* Middle section */
+/* List Part */
+
+
+#midWholePart11{
+    font-family:'Abel',sans-serif;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+#listDecoration{
+  list-style:hiragana;
+}
+
+
+#midWholePart11 div ul li h1{
+    font-size: 100px;
+    font-family: 'Allerta',sans-serif;
+    letter-spacing: 10px;
+}
+
+
+
+/* Discover button look */
+#midWholePart12{
+    position: absolute;
+    top: 600px;
+    left: 140px;
+}
+
+#midWholePart121 button{
+    color: white;
+    border:none;
+    background-color: #466D50;
+    padding: 10px 30px;
+    font-family:'Allerta',sans-serif;;
+    font-size: 35px;
+    border-radius: 30px;
+    cursor: grab;
+}
+
+#midWholePart121 button:hover{
+    background-color: #000000;
+}
+
+
+/* Below Discover Part */
+#midWholePart13{
+    position:absolute;
+    top:750px;
+    left: 150px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+#care{
+    width:80px
+}
+#light{
+    width: 60px;
+}
+
+#feeding{
+    width:120px;
+}
+
+.midWholePart13Parts{
+    margin-bottom: 70px;
+}
+
+.midWholePart13Parts img{
+    margin-right: 20px;
+}
+
+.midWholePart13Parts p,h4{
+    margin-top: -10px;
+}
+
+.midWholePart13Parts h4{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.midWholePart13Parts p{
+    font-size: 20px;
+}
+/* Flower Pot image */
+#imgMain{
+    position: absolute;
+    top: 320px;
+    left: 900px;
+    width: 700px;
+    height: 1005px;
+}
+}
+
+@media screen and (max-width:320px) {
+    .nav-logo{
+        width: 150px;
+    }
+    
+      #navMid{
+        margin-top: -48px;
+        margin-left: 270px;
+        font-size: 40px;
+        display:none;
+    }
+    #navEnd{
+        position: relative;
+        left: -360px;
+        top: 10px;
+    }
+
+    /* Ham Menu */
+  .ham-menu{
+   visibility: visible;
+   position: relative;
+   left: 1150px;
+   bottom: 50px;
+ }
+ .ham-list{
+    width: 50px;
+ }
+ #checkMe{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+    visibility: hidden;
+ }
+
+ /* Middle section */
+/* List Part */
+
+
+#midWholePart11{
+    font-family:'Abel',sans-serif;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+#listDecoration{
+  list-style:hiragana;
+}
+
+
+#midWholePart11 div ul li h1{
+    font-size: 170px;
+    font-family: 'Allerta',sans-serif;
+    letter-spacing: 10px;
+}
+
+
+
+/* Discover button look */
+#midWholePart12{
+    position: absolute;
+    top: 1000px;
+    left: 470px;
+}
+
+#midWholePart121 button{
+    color: white;
+    border:none;
+    background-color: #466D50;
+    padding: 20px 60px;
+    font-family:'Allerta',sans-serif;;
+    font-size: 45px;
+    border-radius: 30px;
+    cursor: grab;
+}
+
+#midWholePart121 button:hover{
+    background-color: #000000;
+}
+.dis-txt{
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+.arrow{
+    position: relative;
+    left: 120px;
+    top: -32px;
+
+}
+/* Below Discover Part */
+#midWholePart13{
+    position:absolute;
+    top:1450px;
+    left: 100px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+#care{
+    width:100px
+}
+#light{
+    width: 70px;
+}
+
+#feeding{
+    width:120px;
+}
+
+.midWholePart13Parts{
+    margin-bottom: 140px;
+}
+
+.midWholePart13Parts img{
+    margin-right: 40px;
+}
+
+.midWholePart13Parts p,h4{
+    margin-top: -10px;
+}
+
+.midWholePart13Parts h4{
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+.midWholePart13Parts p{
+    font-size: 30px;
+}
+/* Flower Pot image */
+#imgMain{
+    position: absolute;
+    top: 1020px;
+    left: 770px;
+    width: 900px;
+    height: 1505px;
+}
 }
